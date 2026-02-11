@@ -1,0 +1,54 @@
+# byte-compiled
+__pycache__/
+*.py[cod]
+
+# IDE files
+.idea/
+.vscode/
+.aider*
+
+# mysql-workbench temp files
+*.mwb.bak
+
+# packaging
+env/
+**/.venv/
+logs/
+pids/
+files/
+db/*.sql*
+db/sql_dumps
+**/dump.rdb
+dist/
+
+# translations
+*.mo
+
+# debugging
+.pdbrc
+
+# log files
+*.log
+
+# pytest cache
+.pytest_cache/
+
+# OS tmp files
+.DS_Store
+/.env
+/temp/
+/tmp
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage/.coverage
+.coverage/.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+/.pytest-queries
+pyrightconfig.json
+
+# crontab config
+crontab/purge_config.toml
